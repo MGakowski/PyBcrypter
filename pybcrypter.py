@@ -43,3 +43,4 @@ elapsed_time = time.time() - start_time
 total_hashes = int(hash_lines*dict_lines)
 rate = int(total_hashes/elapsed_time)
 print("Completed " + str(total_hashes) + " in " + str(elapsed_time) + " seconds. @ " + str(rate) + "/sec.")
+end = raw_input()
